@@ -1,0 +1,750 @@
+body {
+  
+    margin: 0px;
+    background-color: #fcf5fc;
+    color: #443144;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox > span {
+    color: #34495E;
+    padding: 0.5rem 0.25rem;
+}
+
+.checkbox > input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid #5e3455;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: #c597c3;
+    cursor: pointer;
+  }
+
+.checkbox > input:checked {
+    border: 1px solid #bd7fba;
+    background-color: #50084c;
+}
+
+.checkbox > input:checked + span::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    color: #50084c;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.2rem;
+}
+
+.checkbox > input:active {
+    border: 2px solid #50084c;
+}
+
+#Nameurgrps{
+    text-align:left;
+     border: 0px solid grey;
+     width:50%"
+    
+    }
+    #heading{
+    width:100%;
+    padding:7px;
+    background-color: #420042;
+    background-image: radial-gradient(#330033, #330033);
+    height: 60px;
+    color: #ecd8af;
+    
+  }
+    #companyLogo{
+    font-family: 'Galada';
+    }
+    #tA{ white-space: pre-wrap;
+    width:99%;
+      height:370px;
+      font-style:normal;
+      font-size:15px;
+      border: 1px solid #330033 ;
+      background-color:  ;
+      
+     }
+
+
+     /* width */
+     #tA::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#tA::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(184, 184, 184); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+#tA::-webkit-scrollbar-thumb {
+  background: rgb(165, 165, 165); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#tA::-webkit-scrollbar-thumb:hover {
+  background: #707070; 
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  
+  
+}
+     .info{ white-space: pre-wrap;
+      width:50%;
+      height:35px;
+      font-style:normal;
+      font-size:15px;
+      padding-top:8px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      border: 1px  solid #330033;
+      
+     }
+     h1,h4,h5{
+     
+    overflow:auto;
+    margin:0px auto;
+    padding:0px auto;
+    text-align:center
+     }
+    h4{
+    font-weight:;
+     }
+     h5{
+    font-weight:normal;
+     }
+     
+    .dply{
+    overflow:auto;
+    border: groove;
+    border: 1px solid #330033;
+    color:#352135 ;
+    width:100%;
+    height:500px;
+    word-break: break-word;
+    font-style:normal;
+    text-align:left;
+    font-size:15px;
+    background-color :;
+    padding-top:10px;
+    padding-bottom:30px;
+    padding-left:10px;
+    border-style: dashed;
+    cursor: context-menu; 
+    }
+/* width */
+.dply::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .dply::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(184, 184, 184); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .dply::-webkit-scrollbar-thumb {
+    background: rgb(165, 165, 165); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .dply::-webkit-scrollbar-thumb:hover {
+    background: #707070; 
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+  }
+    
+    table, th, td {
+      border:0px solid black;
+    }
+    #dashB{
+    overflow:auto;
+    overflow:scroll;
+    overflow-x: hidden;
+    border: 0px solid grey;
+    width:100%;
+    height:435px;
+    word-break: break-word;
+    font-style:normal;
+    text-align:center;
+    font-size:18px;
+    scrollbar-width: thin;
+    scrollbar-color: #4b004bd7 #f5cef5d7;
+    
+    
+    background-color :;
+        
+    }
+
+    #dashB::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    #dashB::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #f5cef5d7; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    #dashB::-webkit-scrollbar-thumb {
+      background: #4b004bd7; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    #dashB::-webkit-scrollbar-thumb:hover {
+      background: #660066d7; 
+      transition: 0.5s;
+      transition-timing-function: ease-in;
+      
+      
+    }
+    #inptxtB{
+    overflow:auto;
+    border: groove;
+    border: 0px solid blue;
+    
+     
+      width:100%;
+      height:480px;
+      word-break: break-word;
+      font-style:normal;
+      text-align:left;
+      font-size:18px;
+      background-color :;
+    }
+    
+    #dashninp{
+    overflow:;
+    border: groove;
+    border: 0px solid grey;
+    width:100%;
+    height:520px;
+    word-break: break-word;
+    font-style:normal;
+    text-align:left;
+    font-size:18px;
+    background-color :; 
+    }
+    
+    #genINFOdashB{
+    overflow:auto;
+    border: groove;
+    border: 0px solid red;
+    width:51%;
+    height:100px;
+    word-break: break-word;
+    font-style:normal;
+    text-align:left;
+    font-size:18px;
+    background-color :;
+    }
+    #gen{
+        width:99%;
+        height:50px;
+        word-break: break-word;
+        border: 1px solid #330033;
+        font-style:normal;
+        text-align:left;
+        font-size:18px;
+        color:#330033 ;
+        background-color :#f8e9f8;
+        box-shadow:  0 1px 1px 0 rgba(197, 195, 195, 0.3);   
+    }
+    #gen:hover{
+     
+        background-color :#f5dff5;
+        box-shadow:  0 1px 1px 0 rgba(197, 195, 195, 0.3);   
+        transition: 0.5s;
+    }
+    .copyBTN{
+      width:100%;
+      height:50px;
+      word-break: break-word;
+      border: 1px solid #330033;
+      font-style:normal;
+      text-align:left;
+      font-size:18px;
+      color:#330033 ;
+      background-color :#f8e9f8;
+      box-shadow:  0 1px 1px 0 rgba(197, 195, 195, 0.3);  
+    
+    }
+
+  copyBTN:hover{
+   
+      background-color :#f5dff5;
+      box-shadow:  0 1px 1px 0 rgba(197, 195, 195, 0.3);   
+      transition: 0.5s;
+  }
+    
+    #howMANY{
+     height:28px;
+     padding-right:5px;
+     margin-top: 0px;
+    }
+    .gINput{
+    height:28px;
+    width:300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #330033;
+    box-shadow:  0 1px 1px 0 rgba(5, 5, 5, 0.3);
+    }
+    
+    .howMANYmembers{
+    color: #352135;
+    text-align:center;
+    font-style:;
+    padding-left:5px;
+    padding-top: 10px;
+    font-size:14px;
+    border-top: 0px solid #330033;
+    border-right: 1px solid #330033;
+    border-left: 1px solid #330033;
+    border-bottom: 1px solid #330033;
+    border-style: dashed;
+    width:100%;
+    height: 30px;
+    }
+    
+    #totalGRPS{
+    margin-top: auto;
+    border: 0px solid #330033;
+    padding-top:5px;
+    }
+    
+    footer{
+    
+    float:center;
+    text-align:center;
+    
+    }
+    
+    .spangrp{
+    
+    float: left;
+      width: 48.2%;
+      
+      border: 0px solid red;
+      margin-left: 11px;
+      margin-right: 11px;
+      margin-bottom: 22px;
+
+     
+    }
+    
+    #dash_brd{
+    float: left;
+      width: 48%;
+      padding: 8px;
+      height:470px
+    }
+    
+    #dash_brd2{
+    float: left;
+      width: 50%;
+      padding: 8px;
+      height:470px
+    }
+    
+      #heading_media,#heading_mediaSUB,#heading_mediaABOUT{
+    display:none;
+    }
+    
+    #howMANY_Mobile{
+    display:none;
+    }
+    
+    #grpNO{
+    width:30%;
+    height:23px;
+    float:left;
+    border: 1px solid #3300330e;
+    background-color: rgb(248, 236, 246);
+
+    
+    
+    }
+    
+    #shuffleit:checked:before{
+  border: 1px solid #3300330e;
+  background-color: green;
+    }
+    
+    #shuffinp{
+    padding-right:5px;
+     float:right; 
+     font-size:17px;
+    }
+    #s_h{
+    
+    font-size:13px;
+    text-align:left;
+     border: 0px solid grey;
+     width:49%;
+    }
+    #Nameurgrps{
+    text-align:left;
+     border: 2px solid grey;
+     width:10%;
+     font-size:10px;
+     
+    }
+    
+    
+    
+    #sep_dash{
+    display:none;
+    }
+    #ADD_profile{
+    
+    text-align:center;
+    width:20%;
+    background-color:;
+    
+    
+    }
+    
+    .Lbrki{
+    display:none;
+    }
+
+    .header{
+      font-weight: bold;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .address{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .tag{
+      font-weight: bold;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .infoX{
+      
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .ourGroup{
+      font-weight: bold;
+      text-align: left;
+      font-size: 16px;
+      margin-bottom: 5px;
+
+    }
+
+    #about_AGM{
+      width: 100%;
+      border: 1px solid #3b1e3b;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin: auto;
+      text-align: center;
+      border-style: dashed;
+      margin-top: 5px;
+      font-size: 18px;
+      
+    }
+
+    #foooter{
+      background-color: #330033;
+      color: #f5dcae;
+      padding: 20px;
+    }
+
+    #myBtn {
+      display:;
+      position: fixed;
+      bottom: 20px;
+      right: 15px;
+      z-index: 30;
+      font-size: 40px;
+      border: none;
+      outline: none;
+      background-color:#3d033d;
+      color: #f5dcae;
+      cursor: pointer;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      border-radius: 50px;
+      transition: 0.5s;
+      box-shadow:  0 2px 5px 0 rgba(10, 10, 10, 0.3);
+     
+    }
+    
+    #myBtn:hover {
+      background-color:#3d033d;
+    }
+
+    #rocket{
+      transform: rotate(90deg);
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 420px) {
+      .info{ white-space: pre-wrap;
+        width:100%;
+        height: 50px;
+       }
+      .spangrp {
+        width: 100%;
+        margin-left: 0px;
+      }
+     
+      h1{
+      font-size:17px;
+      }
+      
+      h4{
+      font-size:12px;
+      }
+      h3{
+      font-size:11px;
+      }
+    
+     #dash_brd {
+        width: 100%;
+        padding: 8px;
+      height:300px
+      }
+      #dash_brd2 {
+      width: 100%;
+      padding: 8px;
+      height:400px
+      }
+      #NGRPS
+      {
+        width: 100%;
+        padding: 8px;
+      height:500px
+      }
+      
+      #heading_media,#heading_mediaSUB,#heading_mediaABOUT{
+    display:block;
+    text-align:center;
+    font-size:25px;
+    }
+    #heading_media{
+      width:100%;
+      padding:0px;
+      background-color: #420042;
+      background-image: radial-gradient(#330033, #410041);
+      height: 60px;
+      color: #fae4b7;
+      padding-top: 15px;
+      font-family: 'Galada';
+      
+    }
+    #heading_mediaSUB{
+      margin-top: 5px;
+    }
+    
+      #heading{
+    display:none;
+    }
+    
+    .Lbrk{
+    display:none;
+    }
+    
+    .Lbrki{
+    display:none;
+    }
+    
+    #inptxtB{
+    overflow:auto;
+    border: groove;
+    border: 0px solid blue;
+    width:100%;
+    height:350px;
+    word-break: break-word;
+    font-style:normal;
+    text-align:left;
+    font-size:18px;
+    background-color :;
+    }
+    
+    #tA{ white-space: pre-wrap;
+    width:100%;
+    height:200px;
+    font-style:normal;
+    font-size:10px;
+    resize:;
+    border: 1px solid grey;
+     }
+     
+     #howMANY{
+    display:block;
+    }
+    #howMANY_Mobile{
+    display:none;
+    }
+    
+    #gen{
+      width:100%;
+      height:50px;
+       word-break: break-word;
+      font-style:normal;
+      text-align:center;
+      font-size:15px;
+      background-color :;
+    }
+    
+    #grpNO{
+    width:60%;
+    height:20px;
+    font-size:10px;
+   
+    
+    }
+    
+    #shuffleit{
+    
+    }
+    
+    #shuffinp{
+    padding-right:5px;
+     float:right; 
+     font-size:10px;
+    }
+    
+     
+     .gINput{
+    height:50px;
+    width:100%;
+    font-size:11px;
+    }
+    
+    #Nameurgrps{
+    text-align:center;
+     border: 0px solid grey;
+     width:25%"
+     font-size:13px;
+     
+    }
+    #s_h{
+    font-size:9px;
+     border: 0px solid grey;
+     width:100%;
+    
+    text-align:left;
+     
+    
+    }
+    
+    #totalGRPS{
+    text-align:center;
+    border: 0px solid rgb(252, 64, 64);
+    width:100%;
+    height:15px;
+    font-size:9px;
+    
+    }
+    
+    .copyBTN{
+      width:100%;
+      height:50px;
+       word-break: break-word;
+        font-style:normal;
+        text-align:center;
+        font-size:15px;
+        background-color :;
+    }
+    
+    .howMANYmembers{
+    text-align:center;
+    font-style:;
+    padding-left:5px;
+    padding-top: 10px;
+    font-size:13px;
+    width: 100%;
+    
+    }
+    #sep_dash{
+    display:block;
+    }
+    footer{
+    font-size:12px;
+    }
+    .spangrp{
+    
+    }
+    
+    #ADD_profile{
+    font-size:15px;
+    text-align:center;
+    border: 0px solid grey;
+    width:40%;
+    background-color:;
+    
+    }
+    
+    #ALL_headers{
+    background-color:;
+    padding-top:;
+    }
+  
+    #hrr{
+    display:none;
+    }
+    #grpinNo{
+      border:1px solid black; 
+      width: 120px;float: right; 
+    }
+    #grpinNo1{
+      margin-top: 4px; 
+    }
+    .dply{
+      font-size: 13px;
+    }
+    #about_AGM{
+      text-align: justify;
+      
+    }
+    }

@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Auto Group Maker</title> 
+<meta name="Auto Group Maker" content="Auto Grouping App">
+<link rel="stylesheet" href="style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Galada' rel='stylesheet'>
+
+
+   <div id="heading">    
+      <h2 style = "float:left;margin-top:7px;cursor: pointer;"  id = "companyLogo">Auto Group Maker <span style = "font-size:12px"><i>  </i></h2><span style = "float:right;margin-top:13px"><a style="cursor: pointer;color: #ecd8af;text-decoration: none;" id = "About"  href="#aboutAGM">about AGM</a>  </span> </span>
+      </div>
+      <div id = "ALL_headers">
+
+      <div id="heading_media" style="">Auto Group Maker </div>
+      <i><div id="heading_mediaSUB" style = "font-size:13px"> Automate the boring work</div></i>
+      
+      <!--<div id="heading_mediaABOUT" style = "font-size:10px"> about AGM</div>-->
+      </div>
+
+<div id = "ALL_ALL" style="margin-bottom: 10px;">
+
+
+<div>
+  
+
+</div>
+<center><div id="totalGRPS" ></div></center>
+<br class ="Lbrki">
+<br class ="Lbrk">
+
+
+
+<div id = "genBox">
+
+   <div id = "dash_brd" style = "border:0px solid grey">
+  
+   <div id="inptxtB"><textarea id="tA" placeholder="Tip1! Paste the list of names here. Tip2! Aviod blank lines." spellcheck="false" autocomplete="off"></textarea>
+   
+   <div id="howMANY">
+   <input type= "number"  placeholder="Names per group. eg 10" id="grpNO" >&nbsp
+   <body>
+      
+   <span id = "shuffinp"><label class="checkbox">
+      <input type="checkbox" id = "shuffleit"/><div style="width: auto;"  id = "grpinNo1">mix names</div>
+      
+  </label>
+  </span></div>
+
+	<div style="clear: both"></div>
+	
+   <button id = "gen"   onclick="createGrps()">Create groups</button></div> </div>
+   </div>
+   
+   <div id = "dash_brd2"  style = "border:0px solid rgb(162, 189, 13)">
+  
+   
+      <div style="height: 425px;border: 0px solid blue;">
+         <div style = "border:0px solid green;" id="dashB"><div   style="border: 0px solid red;"><div id = "ADD_profile"></div><textarea class="info" id="compNAME" placeholder="Company Name"></textarea><br><textarea class="info" id="compADD" placeholder="Company address"></textarea><br><textarea class="info" id="compEVENT" placeholder="Tag eg. Recruitment exercise"></textarea><br><textarea class="info" id="OtherINFO" placeholder="Info, date, etc"></textarea><br><br><div ></div><input type= "text"  placeholder="Group One" class="gINput" id="Input1"><br>
+      <input type= "text"  value = "" class="gINput" id="Input2" placeholder="Group Two"><br><input type= "text"  value = "" class="gINput" id="Input3" placeholder="Group Three"><br>
+      <input type= "text"  value = "" class="gINput" id="Input4" placeholder="Group Four"><br><input type= "text"  value = "" class="gINput" id="Input5" placeholder="Group Five"><br  id = "brak" style = "display:none" ><br>
+      <input type= "text"  value = "" class="gINput" id="Input6" placeholder="Group Six" ><br><span style = "display:none" id = "hidden_input"><input type= "text"  value = "" class="gINput" id="Input7" placeholder="Group Seven"><br>
+      <input type= "text"  value = "" class="gINput" id="Input8" placeholder="Group Eight"><br><input type= "text"  value = "" class="gINput" id="Input9" placeholder="Group Nine"><br>
+      <input type= "text"  value = "" class="gINput" id="Input10" placeholder="Group Ten"><br><input type= "text"  value = "" class="gINput" id="Input11" placeholder="Group Eleven"><br>
+      <input type= "text"  value = "" class="gINput" id="Input12" placeholder="Group Twelve"><br><input type= "text"  value = "" class="gINput" id="Input13" placeholder="Group Thirteen"><br>
+      <input type= "text"  value = "" class="gINput" id="Input14" placeholder="Group Fourteen"><br><input type= "text"  value = "" class="gINput" id="Input15" placeholder="Group Fifthteen"><br>
+      <input type= "text"  value = "" class="gINput" id="Input16" placeholder="Group Sixteen"><br><input type= "text"  value = "" class="gINput" id="Input17" placeholder="Group Seventeen"><br>
+      <input type= "text"  value = "" class="gINput" id="Input18" placeholder="Group Eigthteen"><br><input type= "text"  value = "" class="gINput" id="Input19" placeholder="Group Nineteen"><br>
+      <input type= "text"  value = "" class="gINput" id="Input20" placeholder="Group Twenty"><br><input type= "text"  value = "" class="gINput" id="Input21" placeholder="Group Twenty One"><br>
+      <input type= "text"  value = "" class="gINput" id="Input22" placeholder="Group Twenty Two"><br><input type= "text"  value = "" class="gINput" id="Input23" placeholder="Group Twenty Three"><br>
+      <input type= "text"  value = "" class="gINput" id="Input24" placeholder="Group Twenty Four"><br><input type= "text"  value = "" class="gINput" id="Input25" placeholder="Group Twenty Five"><br>
+      <input type= "text"  value = "" class="gINput" id="Input26" placeholder="Group Twenty Six"><br><input type= "text"  value = "" class="gINput" id="Input27" placeholder="Group Twenty Seven"><br>
+      <input type= "text"  value = "" class="gINput" id="Input28" placeholder="Group Twenty Eight"><br><input type= "text"  value = "" class="gINput" id="Input29" placeholder="Group Twenty Nine"><br>
+      <input type= "text"  value = "" class="gINput" id="Input30" placeholder="Group Thirty"><br></span></div></div>
+      <center><i><div  id = "s_h" onclick = "show_hideinp()"  style="cursor: pointer;">show more | *Scroll down after clicking</div></i></center> 
+       </div>
+</div>
+ <br>
+ 
+ <div style="clear: both"></div>
+<br>
+<br>
+<br>
+
+  <center><small><div style="margin: 20px;"> * Edit the contents of the groups directly from the result *</div></small></center>
+ <button  id ="myBtn"  onclick="topFunction()">&#8613;</button>
+<br><br>
+<div id = "mamaDiv"></div>
+
+<div style="clear: both"></div>
+
+<div style="clear: both"></div>
+
+<br><br>
+<div style="margin:auto;font-size: 25px;text-align: center;" id = "aboutAGM">About Auto Group Maker</div>
+<div id = "about_AGM"><b>Auto Group Maker</b> will automate the boring work associated with creating groups manually and also erradicate every form of bias from grouping activities
+   
+   
+</div>
+
+
+
+
+ 
+</div>
+</div>
+<div id = "foooter">
+   <footer>
+   by likeaking company
+   
+   <br>
+   
+   <i>reality is a lair</i>
+   <p style="padding-top: 0px;">Copyright &copy; <span id = "year"></p>
+   </footer>
+   </div>
+</body>
+<script  src = "agm.js"></script>
+<script>
+  
+   </script>
+</html>
